@@ -51,21 +51,30 @@ body{
 }
 
 .header{
-    height: 250px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #333;
     line-height: 1.5;
-}
 
-.header .container{
-    padding: 20px 0 0 0;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .header img{
-    max-width: 1500px;
+    position: absolute;
+    z-index: 1;
 }
+
+.header .container{
+
+    padding: 20px 0 0 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
 
 .header h1{
     max-width: 500px;
