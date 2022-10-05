@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #333;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar{
+    height: 60px;
+    background: rgb(172,121,49);
+    background: linear-gradient(90deg, rgba(172,121,49,1) 35%, rgba(198,149,79,1) 49%, rgba(173,125,55,1) 64%);
+    padding: 0 40px;
+}
+
+.navbar .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    height: 800px;
+    margin: 0 auto;
+    background-color: #333;
+    line-height: 1.5;
+
+}
+
+.header img{
+    position: absolute;
+    z-index: 1;
+}
+
+.header .container{
+
+    padding: 20px 0 0 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+
+.header h1{
+    max-width: 500px;
+    font-size: 3.6rem;
+}
