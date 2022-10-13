@@ -7,20 +7,16 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(../images/guitarbackground.jpg);
+    background-image: url(../images/guitarbackground3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: #000;
 }
 
-.logo{
-    font-size: 2.5rem;
-    font-weight: bolder;
-}
-
 .navbar{
-    height: 60px;
+    background-color: #231f20;
+    height: 100px;
     padding: 0 40px;
 }
 
@@ -31,13 +27,17 @@ body{
     align-items: center;
 }
 
+.navbar img{
+    height: 100%;
+}
+
 .navbar ul li a{
     color: white;
     text-decoration: none;
 }
 
 .navbar a:hover{
-    color: #333;
+    color: rgba(255, 255, 88, 0.197);
 }
 
 .navbar ul li{
@@ -51,35 +51,25 @@ body{
     list-style: none;
 }
 
-
-
-
 .header{
     height: 800px;
     margin: 0 auto;
     line-height: 1.5;
-
-}
-
-.header img{
-    position: absolute;
-    z-index: 1;
 }
 
 .header .container{
-
     padding: 20px 0 0 0;
     height: 100%;
-    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: left;
     align-items: center;
-
-    
 }
 
-
-.header h1{
-    max-width: 500px;
-    font-size: 3.6rem;
+.header .container .boxes{
+    flex: 1;
+    max-width: 600px;
+    font-size: 2.8rem;
+    padding-left: 30px;
 }
+
