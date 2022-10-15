@@ -8,8 +8,6 @@ body{
     color: #333;
     font-size: 1.2rem;
     line-height: 1.5;
-
-
 }
 
 .container{
@@ -57,9 +55,13 @@ body{
 
 
 .header{
-    background-color: #f3ab10;
+    min-height: 1200px;
     background: url(../images/gelo\ suck.jpg);
     background-size: 100%;
-    background-position: top;
+    background-position: fixed;
     background-repeat: no-repeat;
+}
+
+.header .container{
+    
 }
