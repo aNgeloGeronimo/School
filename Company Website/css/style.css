@@ -19,6 +19,7 @@ body{
 .navbar{
     height: 80px;
     background: #333;
+    
 }
 
 .navbar .container{
@@ -55,13 +56,19 @@ body{
 
 
 .header{
-    min-height: 1200px;
+    height: 1200px;
     background: url(../images/gelo\ suck.jpg);
     background-size: 100%;
     background-position: fixed;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .header .container{
     
+}
+
+
+.section{
+    height: 1600px;
 }
