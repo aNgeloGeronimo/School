@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+
+}
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    height: 80px;
+    background: #333;
+}
+
+.navbar .container{
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1{
+    font-size: 2.5rem;
+    color: #f3ab10;
+}
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar ul li{
+    padding: 0 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(184, 12, 12);
+}
+
+.navbar a:hover{
+    color: #e97e0c;
+}
+
+
+.header{
+    background-color: #f3ab10;
+    background: url(../images/gelo\ suck.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
