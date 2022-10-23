@@ -1,0 +1,42 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #000;
+    max-width: 1300px;
+    margin: 0 auto;
+    line-height: 1.2em;
+    background: rgb(70, 201, 18);
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+.navbar{
+    height: 80px;
+    background-color: rgb(22, 182, 190);
+}
+
+.navbar .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    font-size: 1.3rem;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 30px;
+}
+
