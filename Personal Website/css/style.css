@@ -18,7 +18,9 @@ body{
 
 .navbar{
     height: 80px;
+    width: 100%;
     background: #333;
+    position: fixed;
 }
 
 .navbar .container{
@@ -67,6 +69,16 @@ body{
     height: 100%;
 }
 
+.header .ads{
+    
+    top: 90%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #666;
+    position: fixed;
+}
+
 .introduction{
     color: #1a1209
 }
@@ -81,4 +93,8 @@ body{
 
 .introduction h1{
     font-size: 3rem;
+}
+
+.filler{
+    height: 1400px;
 }
