@@ -29,10 +29,6 @@ body{
     align-items: center;
 }
 
-.navbar img{
-    height: 100%;
-}
-
 .navbar ul li a{
     color: white;
     text-decoration: none;
@@ -54,7 +50,6 @@ body{
 }
 
 .header{
-    height: 1000px;
     margin: 0 auto;
     line-height: 1.5;
 
@@ -72,12 +67,7 @@ body{
     align-items: center;
 }
 
-.header .container .boxes{
-
-    
-    margin: 0;
-    max-width: 600px;
-    font-size: 2.8rem;
-    padding-left: 30px;
+.sampleClass{
+    background-color: #000;
 }
 
