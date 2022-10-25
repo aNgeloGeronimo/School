@@ -19,8 +19,12 @@ body{
 .navbar{
     height: 80px;
     width: 100%;
-    background: #8b4411;
+    background: #0d0b01;
     position: fixed;
+}
+
+.navbar img{
+    height: 70px;
 }
 
 .navbar .container{
