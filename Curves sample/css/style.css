@@ -3,7 +3,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #ae6e4e;
+    background: #202731;
     overflow-x: hidden;
 }
 
@@ -40,18 +40,6 @@ section{
     bottom: 0;
 }
 
-.curve::after{
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
-    height: 100%;
-    background-color: #8b4411;
-    transform: translate(-4%, 40%);
-    z-index: -1;
-}
-
 .curve::before{
     content: '';
     display: block;
@@ -59,8 +47,32 @@ section{
     border-radius: 100% 50%;
     width: 55%;
     height: 100%;
-    background-color: #ae6e4e;
+    background-color: #202731;
     transform: translate(85%, 60%);
+}
+
+.curve::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #3c31dd;
+    transform: translate(-4%, 40%);
+    z-index: -1;
+}
+
+.bubble::after{
+    content: '';
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    height: 85%;
+    width: 100%;
+    background-color: #0f0f10;
+    z-index: -1;
 }
 
 
