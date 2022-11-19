@@ -7,7 +7,7 @@
 body{
 	font-size: 1.5rem;
 	line-height: 1.5em;
-	background-color: #515f66;
+	background-color: #040404;
 	font-family: Lato, sans-serif;
 }
 
@@ -75,3 +75,138 @@ a:nth-of-type(4){
 	font-size: 3rem;
 	padding-left: 28vw;
 }
+
+.introduction{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	height: 600px;
+	color: #fff;
+}
+
+.box h1{
+	text-align: justify;
+	width: 800px;
+}
+
+.new-store {
+	color: #fff;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 800px;
+	background: #000;
+}
+
+.new-store h1, .store h1{
+	padding-bottom: 50px;
+}
+
+.new-store img{
+	height: 300px;
+}
+
+.store{
+	height: 800px;
+	color: #fff;
+	background: #040404;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.store .container{
+	height: 300px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.store .boxes{
+	padding: 0px 3px;
+}
+
+
+
+
+.showcase{
+    height: 600px;
+	width: 100%;
+    background: #000;
+    color: #fff;
+}
+
+.showcase .container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.showcase h1{
+    font-size: 40px;
+}
+
+.showcase .inner-text{
+    padding: 0px 10px;
+}
+
+.showcase p{
+    margin: 20px 0;
+}
+
+.showcase input[type="text"],
+.showcase input[type="email"]{
+    border: 0;
+    border-bottom: 1px #b4becb solid ;
+    width: 100%;    
+}
+
+.showcase input:focus{
+    outline: none;
+}
+
+.input-container{
+    width: 100%;
+}
+
+.card{
+    width: 25vw;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card .inner-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+textarea{
+	padding-top: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #ae6e4e;
+    color: #FFF;
+    border: none;
+    border-radius: 5px; 
+}
+
+.btn:hover{
+    transform: scale(0.9);
+}
+
