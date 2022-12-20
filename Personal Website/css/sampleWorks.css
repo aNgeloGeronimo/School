@@ -1,59 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&display=swap');
+
 *{
-    box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 body{
-    color: #333;
-    font-size: 1.2rem;
-    line-height: 1.5;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    background: #8b4411;
+    line-height: 5rem;
+    overflow-x: hidden;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #f5f5dd;
+}
+
+a:hover{
+    
 }
 
 .container{
     height: 100%;
+    max-width: 1500px;
     margin: 0 auto;
-    padding: 0 30px;
-}
-
-.navbar{
-    height: 80px;
-    width: 100%;
-    background: #0d0b01;
-    position: fixed;
-}
-
-.navbar img{
-    height: 70px;
-}
-
-.navbar .container{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 0;  
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.navbar h1{
-    font-size: 2.5rem;
-    color: #f5f5dd;
+nav img{
+    height: 110px;
 }
 
-.navbar ul{
+nav .container ul{
     display: flex;
-    text-decoration: none;
+    align-items: center;
+    justify-content: center;
     list-style: none;
+    border-bottom: 2px solid #a57a5a;
+    box-shadow: 0px 2px #cc9767;;
 }
 
-.navbar ul li{
-    padding: 0 15px;
+nav .container ul li{
+    padding: 0px 15px;
 }
 
-.navbar a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #f5f5dd;
+
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
-.navbar a:hover{
-    color: #e97e0c;
+.filler{
+    height: 300px;
+    width: 100%;
+}
+
+img{
+    padding: 5px;
+    height: 230px;
+}
+
+.gallery{
+    display: flex;
+}
+
+.club{
+    height: 800px;
+    background: #a57a5a;
+}
+
+.club .container{
+    height: 100%;
+    flex-direction: column;
+}
+
+.school{
+    height: 600px;
+    background: #c7ad7f;
+}
+
+.school .container{
+    flex-direction: column;
+}
+
+
+
+
+
+
+.color1{
+    background: #8b4411;
+}
+
+.color2{
+    background: #ae6e4e;
+}
+
+.color3{
+    background: #cc9767;
+}
+
+.color4{
+    background: #f5f5dd;
+}
+
+.color5{
+    background: #c7ad7f;
+}
+
+.color6{
+    background: #a57a5a;
 }
